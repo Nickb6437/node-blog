@@ -1,7 +1,9 @@
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
+    color:black;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -31,5 +33,15 @@
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
-  color: #fff;
+    color: #fff;
+}
+
+.contact {
+    font-size:17px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.contact a {
+    color:black;
 }

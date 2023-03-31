@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://Nickb6437:Blog123@cluster0.1xq1a.mongodb.net/blogDB", {
+mongoose.connect("mongodb+srv://Nickb6437:L1nda13023@cluster0.1xq1a.mongodb.net/blogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -90,5 +90,5 @@ if (port == null || port == "") {
 }
 
 app.listen(port, function() {
-  console.log("Server started on succesfully");
+  console.log("Server started succesfully on " + port);
 });
